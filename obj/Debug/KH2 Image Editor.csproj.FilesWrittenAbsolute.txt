@@ -1,0 +1,9 @@
+/run/media/govanify/HDD/KH2FM/tools/KH2 Image Editor/KH2-2DD-Editor/obj/Debug/IMGZ_Editor.FormMain.resources
+/run/media/govanify/HDD/KH2FM/tools/KH2 Image Editor/KH2-2DD-Editor/obj/Debug/IMGZ_Editor.Properties.Resources.resources
+/run/media/govanify/HDD/KH2FM/tools/KH2 Image Editor/KH2-2DD-Editor/bin/Debug/KH2 Image Editor.exe.config
+/run/media/govanify/HDD/KH2FM/tools/KH2 Image Editor/KH2-2DD-Editor/bin/Debug/KH2 Image Editor.exe.mdb
+/run/media/govanify/HDD/KH2FM/tools/KH2 Image Editor/KH2-2DD-Editor/bin/Debug/KH2 Image Editor.exe
+/run/media/govanify/HDD/KH2FM/tools/KH2 Image Editor/KH2-2DD-Editor/obj/Debug/KH2 Image Editor.exe
+/run/media/govanify/HDD/KH2FM/tools/KH2 Image Editor/KH2-2DD-Editor/obj/Debug/KH2 Image Editor.exe.mdb
+/run/media/govanify/HDD/KH2FM/tools/KH2 Image Editor/KH2-2DD-Editor/bin/Debug/BAR Editor.exe
+/run/media/govanify/HDD/KH2FM/tools/KH2 Image Editor/KH2-2DD-Editor/bin/Debug/nQuant.Core.dll

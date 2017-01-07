@@ -1011,7 +1011,7 @@ namespace IMGZ_Editor
         Process PCSX = new Process();
         void Timer1Tick(object sender, EventArgs e)
         {
-        	try
+			try
 			{
 				Process.GetProcessById(PCSX.Id);
 			}
@@ -1022,12 +1022,20 @@ namespace IMGZ_Editor
 				foreach (Process pcsx_search in Process.GetProcesses())
 				{
 					Application.DoEvents();
-					if (pcsx_search.ProcessName.ToString().Contains("pcsx2"))
+					try
 					{
-						button3.Enabled = true;
-						ok_ = true;
-						label2.Text = "Linked to ["+pcsx_search.ProcessName.ToString()+"]";
-						PCSX = pcsx_search;
+
+						if (pcsx_search.ProcessName.ToString().Contains("pcsx2"))
+						{
+							button3.Enabled = true;
+							ok_ = true;
+							label2.Text = "Linked to [" + pcsx_search.ProcessName.ToString() + "]";
+							PCSX = pcsx_search;
+						}
+					}
+					catch(Exception er)
+					{
+						Debug.Print("Can't check if pcsx2 is there! Might be running on mono linux {0}", er);
 					}
 				}
 				if (ok_ ==false)
