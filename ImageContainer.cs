@@ -119,7 +119,7 @@ namespace IMGZ_Editor
             }
             catch (Exception e)
             {
-                FormMain.ShowError(e, "Image conversion error", System.Windows.Forms.MessageBoxIcon.Warning);
+				MainForm.ShowError(e, "Image conversion error", System.Windows.Forms.MessageBoxIcon.Warning);
                 //Attempt to recover
                 quant = null;
             }
@@ -176,7 +176,7 @@ namespace IMGZ_Editor
             }
             catch (Exception e)
             {
-                FormMain.ShowError(e, "Fatal error replacing image");
+                MainForm.ShowError(e, "Fatal error replacing image");
                 return;
             }
             System.Diagnostics.Debug.Assert(bmp != null);

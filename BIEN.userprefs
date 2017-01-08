@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="BIEN.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FormMain.cs">
+    <Files>
+      <File FileName="FormMain.cs" Line="1185" Column="1" />
+      <File FileName="ImageContainer.cs" Line="160" Column="3" />
+      <File FileName="Program.cs" Line="18" Column="41" />
+      <File FileName="Properties/Resources.resx" Line="1" Column="1" />
+      <File FileName="Properties/Settings.settings" Line="1" Column="1" />
+      <File FileName="app.config" Line="1" Column="1" />
+      <File FileName="Properties/AssemblyInfo.cs" Line="36" Column="40" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BIEN PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

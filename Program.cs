@@ -15,7 +15,7 @@ namespace IMGZ_Editor
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMain());
+            Application.Run(new MainForm());
         }
     }
 }
